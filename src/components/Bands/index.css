@@ -1,0 +1,33 @@
+.main-container {
+  text-align: center;
+  padding: 20px;
+  width: 90%; /* Adjust the width of the container */
+  margin: auto;
+}
+
+.watch-bg-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://res.cloudinary.com/student7/image/upload/v1735200437/MYA33ref_SR_S10_VW_PF_wsjmfb.jpg');
+  background-size: contain;
+  padding: 20px;
+  border-radius: 10px;
+  height: 400px;
+  width: 100%;
+  background-position: center;
+}
+
+.slide-wrapper {
+  max-width: 100%;
+  padding: 10px;
+}
+
+.home-watch-img {
+  max-width: 101%;
+  border-radius: 8px;
+  height: 300px;
+  width: 300px;
+  margin-right: 20px;
+  object-fit: cover;
+}

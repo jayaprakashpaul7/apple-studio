@@ -1,4 +1,5 @@
 import Header from '../Header';
+import { Link } from 'react-router-dom';
 import './index.css';
 
 const Product = () => (
@@ -18,10 +19,20 @@ const Product = () => (
           className="home-watch-img"
         />
       </div>
-      <ul>
-        <li>
-          <button>size</button>
+      <ul className="tabs-container">
+        <li className="tab-item">
+          <button className="tab-btn">Size</button>
         </li>
+        <Link to="/product/cases">
+          <li className="tab-item">
+            <button className="tab-btn">Case</button>
+          </li>
+        </Link>
+        <Link to="/product/bands">
+          <li className="tab-item">
+            <button className="tab-btn">Band</button>
+          </li>
+        </Link>
       </ul>
     </div>
   </div>

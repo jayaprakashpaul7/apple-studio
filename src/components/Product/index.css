@@ -13,3 +13,27 @@
 .home-watch-img {
   width: 100%;
 }
+.tabs-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.tab-item {
+  list-style-type: none;
+  margin-right: 20px;
+}
+.tab-btn {
+  outline: none;
+  border: none;
+  background-color: rgb(210, 230, 230);
+  color: black;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  border-radius: 20px;
+}
